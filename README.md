@@ -2,7 +2,7 @@
 
 ## 📝 Description
 
-**Amazon Clone** is a front-end web application inspired by the Amazon e-commerce platform. The project focuses on building a modern, responsive user interface that simulates a real online shopping experience.
+**Amazon Clone** is a Full stack web application inspired by the Amazon e-commerce platform. The project focuses on building a modern, responsive user interface that simulates a real online shopping experience.
 
 The application fetches product data from a **Fake API**, allowing users to browse products, view detailed product pages, add items to the cart, manage favorites, and search products easily. The project is designed to showcase strong front-end skills using modern tools and best practices.
 
