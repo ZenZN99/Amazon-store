@@ -1,108 +1,125 @@
-# 🛒 Amazon Clone – Front-End Web Application
+🛒 Amazon Clone – Full-Stack Web Application
+📝 Description
 
-## 📝 Description
+Amazon Clone is a full-stack e-commerce web application inspired by the Amazon platform. The project focuses on delivering a modern, responsive shopping experience powered by a scalable back-end and a clean, user-friendly front-end.
 
-**Amazon Clone** is a Full stack web application inspired by the Amazon e-commerce platform. The project focuses on building a modern, responsive user interface that simulates a real online shopping experience.
+The application integrates a back-end API to manage product data, cart operations, and favorites, allowing users to browse products, view detailed pages, add items to the cart, manage favorites, and search products efficiently. This project is built to demonstrate strong full-stack development skills, modern architecture, and best practices.
 
-The application fetches product data from a **Fake API**, allowing users to browse products, view detailed product pages, add items to the cart, manage favorites, and search products easily. The project is designed to showcase strong front-end skills using modern tools and best practices.
-
----
-
-## 📌 Application Overview
+📌 Application Overview
 
 The application includes:
-- Products listing fetched from a Fake API
-- Product details pages
-- Add to Cart functionality with quantity control
-- Add to Favorites feature
-- Cart page with full item management
-- Favorites page to manage saved products
-- Search products by name
-- Browse Category dropdown menu
-- Fully responsive design
 
----
+Product listing fetched from an API
 
-## ⚙️ Features
+Dynamic product details pages
 
-### 🛍 Product Management
-- Display products dynamically from a Fake API
-- View detailed product information
-- Browse products by category
-- Search products in real time
+Add to Cart functionality with quantity control
 
-### 🛒 Cart Features
-- Add products to cart
-- Increase or decrease product quantity
-- Remove items from cart
-- View cart summary
+Favorites (Wishlist) management
 
-### ❤️ Favorites Features
-- Add or remove products from favorites
-- Dedicated favorites page
-- Persistent favorites state during the session
+Cart page with full item management
 
-### 🧭 UI & UX
-- Responsive layout for all screen sizes
-- Clean and modern design inspired by Amazon
-- Dropdown menu for browsing categories
-- Fast and smooth user interactions
+Favorites page for saved products
 
----
+Product search and category browsing
 
-## 🧰 Technologies Used
+Fully responsive layout across all devices
 
-### Front-End
-- **Next.js 16**
-- **TypeScript**
-- **Tailwind CSS**
+⚙️ Features
+🛍 Product Management
 
-### Back-End
-- **Node.js**
-- **Express.js**
-- **JavaScript**
+Fetch products dynamically from an API
 
-### API
-- **Fake Store API** (Dummyjson)
+Display detailed product information
 
-### Tools
-- Git & GitHub
+Browse products by category
 
----
+Real-time product search
 
-## 🚀 Getting Started
+🛒 Cart Features
 
-### 1️⃣ Clone the Repository
-```bash
+Add products to cart
+
+Increase or decrease item quantity
+
+Remove products from cart
+
+View cart summary
+
+❤️ Favorites Features
+
+Add or remove products from favorites
+
+Dedicated favorites page
+
+State management handled via back-end logic
+
+🧭 UI & UX
+
+Fully responsive design
+
+Clean, modern Amazon-inspired interface
+
+Category dropdown navigation
+
+Smooth and fast user interactions
+
+🧰 Technologies Used
+Front-End
+
+Next.js 16
+
+TypeScript
+
+Tailwind CSS
+
+Back-End
+
+Node.js
+
+Express.js
+
+JavaScript
+
+API
+
+Fake Store API (DummyJSON)
+(used as a data source, integrated through the back-end)
+
+Tools
+
+Git & GitHub
+
+🚀 Getting Started
+1️⃣ Clone the Repository
 git clone https://github.com/ZenZN99/Amazon-store.git
 cd Amazon-store
+
 2️⃣ Install Dependencies
-bash
-Copy code
 npm install
+
 3️⃣ Run the Application
-bash
-Copy code
 npm run dev
+
+
 The application will run on:
 
-arduino
-Copy code
 http://localhost:5173
-```
+
 📌 Future Improvements
--
-Persist cart and favorites using LocalStorage
+
+Persist cart and favorites using a database
 
 Add authentication and user accounts
 
-Connect to a real back-end API
+Replace Fake API with a real database
 
-Add checkout flow and payment simulation
+Implement checkout flow and payment simulation
 
 Add Dark / Light mode
 
 📜 License
+
 MIT License © 2025
 
-Developed by Zen Allaham - Software Engineer
+Developed by Zen Allaham – Software Engineer
