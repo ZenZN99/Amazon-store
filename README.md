@@ -1,125 +1,125 @@
-🛒 Amazon Clone – Full-Stack Web Application
-📝 Description
+# 🛒 Amazon Clone – Full-Stack Web Application
 
-Amazon Clone is a full-stack e-commerce web application inspired by the Amazon platform. The project focuses on delivering a modern, responsive shopping experience powered by a scalable back-end and a clean, user-friendly front-end.
+## 📝 Description
 
-The application integrates a back-end API to manage product data, cart operations, and favorites, allowing users to browse products, view detailed pages, add items to the cart, manage favorites, and search products efficiently. This project is built to demonstrate strong full-stack development skills, modern architecture, and best practices.
+**Amazon Clone** is a **full-stack e-commerce web application** inspired by the Amazon platform. The project delivers a modern, responsive shopping experience powered by a scalable back-end and a clean, user-friendly front-end.
 
-📌 Application Overview
+The application integrates a back-end API to manage product data, cart operations, and favorites, allowing users to browse products, view detailed pages, add items to the cart, manage favorites, and search products efficiently. This project demonstrates strong **full-stack development skills**, modern architecture, and best practices.
+
+---
+
+## 📌 Application Overview
 
 The application includes:
 
-Product listing fetched from an API
+* Product listing fetched from an API
+* Dynamic product details pages
+* Add to Cart functionality with quantity control
+* Favorites (Wishlist) management
+* Cart page with full item management
+* Favorites page for saved products
+* Product search and category browsing
+* Fully responsive layout across all devices
 
-Dynamic product details pages
+---
 
-Add to Cart functionality with quantity control
+## ⚙️ Features
 
-Favorites (Wishlist) management
+### 🛍 Product Management
 
-Cart page with full item management
+* Fetch products dynamically from an API
+* Display detailed product information
+* Browse products by category
+* Real-time product search
 
-Favorites page for saved products
+### 🛒 Cart Features
 
-Product search and category browsing
+* Add products to cart
+* Increase or decrease item quantity
+* Remove products from cart
+* View cart summary
 
-Fully responsive layout across all devices
+### ❤️ Favorites Features
 
-⚙️ Features
-🛍 Product Management
+* Add or remove products from favorites
+* Dedicated favorites page
+* State management handled via back-end logic
 
-Fetch products dynamically from an API
+### 🧭 UI & UX
 
-Display detailed product information
+* Fully responsive design
+* Clean, modern Amazon-inspired interface
+* Category dropdown navigation
+* Smooth and fast user interactions
 
-Browse products by category
+---
 
-Real-time product search
+## 🧰 Technologies Used
 
-🛒 Cart Features
+### Front-End
 
-Add products to cart
+* **Next.js 16**
+* **TypeScript**
+* **Tailwind CSS**
 
-Increase or decrease item quantity
+### Back-End
 
-Remove products from cart
+* **Node.js**
+* **Express.js**
+* **JavaScript**
 
-View cart summary
+### API
 
-❤️ Favorites Features
+* **Fake Store API (DummyJSON)**
+  *(Used as a data source and integrated through the back-end)*
 
-Add or remove products from favorites
+### Tools
 
-Dedicated favorites page
+* Git & GitHub
 
-State management handled via back-end logic
+---
 
-🧭 UI & UX
+## 🚀 Getting Started
 
-Fully responsive design
+### 1️⃣ Clone the Repository
 
-Clean, modern Amazon-inspired interface
-
-Category dropdown navigation
-
-Smooth and fast user interactions
-
-🧰 Technologies Used
-Front-End
-
-Next.js 16
-
-TypeScript
-
-Tailwind CSS
-
-Back-End
-
-Node.js
-
-Express.js
-
-JavaScript
-
-API
-
-Fake Store API (DummyJSON)
-(used as a data source, integrated through the back-end)
-
-Tools
-
-Git & GitHub
-
-🚀 Getting Started
-1️⃣ Clone the Repository
+```bash
 git clone https://github.com/ZenZN99/Amazon-store.git
 cd Amazon-store
+```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
-3️⃣ Run the Application
+### 3️⃣ Run the Application
+
+```bash
 npm run dev
-
+```
 
 The application will run on:
 
+```text
 http://localhost:5173
+```
 
-📌 Future Improvements
+---
 
-Persist cart and favorites using a database
+## 📌 Future Improvements
 
-Add authentication and user accounts
+* Persist cart and favorites using a database
+* Add authentication and user accounts
+* Replace Fake API with a real database
+* Implement checkout flow and payment simulation
+* Add Dark / Light mode
 
-Replace Fake API with a real database
+---
 
-Implement checkout flow and payment simulation
-
-Add Dark / Light mode
-
-📜 License
+## 📜 License
 
 MIT License © 2025
 
-Developed by Zen Allaham – Software Engineer
+**Developed by Zen Allaham – Software Engin
