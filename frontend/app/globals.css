@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+body {
+  background-color: #ccc;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+button , a {
+  cursor: pointer;
+}
+
+.container{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.menu-open {
+    clip-path: polygon(0 0 ,100% 0 , 100% 0 , 0 0 );
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-open.acitve{
+    clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+}
+
+.title{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+  background-color: #ccc;
+  color: black; 
+  padding: 10px;
+}
+
+
+
+/* From Uiverse.io by Spacious74 */ 
+
+
+.card {
+  font-size: 1rem;
+  width: 360px;
+  height: 300px;
+  color: #bec4cf;
+  background: linear-gradient(135deg, #0d1120 0%, #414e7e 43%, #0d1120 100%);
+  padding: 1.5rem;
+  border-radius: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+
+@media(max-width:1200px){
+  .cards-hero{
+    display: none;
+  }
+ 
+  .details{
+    flex-direction: column;
+    padding: 40px 0;
+  }
+  .details .small-img{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .about{
+    flex-direction: column;
+  }
+  .about .image-about{
+    margin-top: 30px;
+    height: 300px;
+    width: 80%;
+  }
+  .about img{
+    width: 50%;
+  }
+  .register{
+    padding: 30px;
+  }
+  .cart{
+    padding: 20px;
+  }
+ .cart .img-cart-no-product{
+    width: 300px;
+  }
+  .cart .no-product{
+    font-size: 18px;
+  }
+  .cart .desc{
+    display: -webkit-box; 
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .buying{
+    width: 60%;
+  }
+  .title-blog{
+    font-size: 50px;
+  }
+  .cart-buying{
+    width: 40%;
+  }
+}
+
+@media(max-width:900px){
+  
+  .cart-products {
+    flex-direction: column;
+    padding: 10px 30px;
+  }
+  .cart-products img{
+    width: 200px;
+  }
+  .cart-products .price{
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  .cart-no{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .buying{
+    width: 70%;
+  }
+  .register{
+    width: 65%;
+  }
+  .title-blog{
+    font-size: 40px;
+  }
+   .menu-open{
+    top: 7rem;
+    right: 610px;
+  }
+ 
+}
+
+@media(max-width:800px){
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar form , .nav-links{
+    margin: 16px 0;
+  }
+   .menu-open{
+    top: 14rem;
+    right: 266px;
+  }
+  .buying{
+    width: 80%;
+  }
+  
+
+}
+@media(max-width:680px){
+  .navbar{
+    flex-direction: column;
+  }
+  .navbar form{
+    width: 300px;
+    margin: 24px 0;
+  }
+  .nav-links{
+    margin: 20px 0;
+  }
+  
+  .footer-columns{
+    flex-direction: column;
+  }
+  .footer-height{
+    height: 50%;
+  }
+   .footer-columns .flex-col {
+    padding: 5px !important;
+  }
+
+  .footer-logo {
+    width: 80px !important;
+  }
+
+  .footer-country img {
+    width: 25px !important;
+  }
+
+  .footer-copy {
+    font-size: 12px !important;
+  }
+
+  .hero img{
+    height: 100%;
+    object-fit: cover;
+  }
+.menu-open{
+    top: 14rem;
+    right: 100px;
+  }
+ 
+  .register {
+       width: 85%;
+  }
+ .register form{
+    grid-template-columns: 1fr;
+ } 
+ .login{
+  width: 85%;
+ }
+ .title-blog{
+  font-size: 30px;
+ }
+ .cart{
+  flex-direction: column;
+ }
+ .cart-buying{
+  width: 100%;
+ }
+ .fav-no{
+  flex-direction: column;
+ }
+ .fav-no img{
+  width: 200px;
+ }
+ .content-details{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+ }
+ .details{
+  overflow: hidden;
+ }
+ .details h3{
+  font-size: 20px;
+  width: 50%;
+ }
+ .details h4{
+  font-size: 23px;
+ }
+ .details .desc{
+  font-size: 15px;
+  width: 50%;
+ }
+ #big-img{
+  width: 300px;
+  height: 300px;
+ }
+ .card-hero{
+  width: 300px;
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+ }
+ .about img{
+  width: 100%;
+ }
+ .services img{
+  width: 200px;
+  height: 70px;
+ }
+ .blog-desc {
+  flex-direction: column;
+ }
+ .title-blog{
+  width: 100%;
+  font-size: 20px;
+ }
+.blog-desc img{
+  height: 250px;
+}
+.search-product{
+  top: 50px;
+}
+.cards-hero{
+    top: 7rem;
+  }
+  .buying{
+    width: 90%;
+  }
+  .buying form{
+      grid-template-columns: 1fr;
+  }
+
+}
