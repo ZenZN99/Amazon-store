@@ -122,4 +122,4 @@ http://localhost:5173
 
 MIT License © 2025
 
-**Developed by Zen Allaham – Software Engin
+**Developed by Zen Allaham – Full Stack developer 
